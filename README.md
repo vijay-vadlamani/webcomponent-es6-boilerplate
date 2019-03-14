@@ -36,7 +36,7 @@ $ npm install
 
 * Hot reloading via webpack middlewares:
   * `$ npm start`
-  * Point your browser to http://localhost:3000/, page hot reloads automatically when there are changes
+  * Point your browser to http://localhost:6677/, page hot reloads automatically when there are changes
 
 ## Testing
 
@@ -64,6 +64,9 @@ $ npm run tunnel # run in a new tab
 
 You will receive a url, for example `https://tbst.localtunnel.me`, that you can share with anyone for as long as your local instance of `lt` remains active. Any requests will be routed to your local service at the specified port.
 
+## Author Credit
+
+A ton of thanks to [Vardius](https://github.com/vardius/web-components-webpack-es6-boilerplate) for such an amazing boilerplate
 ## License
 
 The code is available under the [MIT license](LICENSE.txt).

@@ -35,7 +35,7 @@ app.use("/js", express.static(fspath.join(__dirname, "js")));
 app.use(cookieParser());
 app.get("*", serverRenderMiddleware);
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 6677;
 app.listen(port, () => {
   // eslint-disable-next-line no-console
   console.log(`Server started at port ${port}`);
